@@ -1,0 +1,131 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+ * {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+ }
+
+ html, body  {
+     margin: 0;
+     padding: 0;
+     background-color: rgb(0, 0, 0);
+ }
+ 
+ .nav ul {
+     margin: 0;
+    
+ }
+
+ .nav li {
+ 
+    display: inline;
+ }
+
+ .nav a { 
+      display: inline-block;
+      padding: .1em;
+      text-decoration: none;
+    color: rgb(255, 255, 255);  
+    }
+
+
+ .main-nav {
+     text-align: center;
+     font-size: 1.5em;
+     font-weight: lighter;
+     border-bottom: 2px solid rgb(255, 255, 255)
+ }
+
+ .main-nav li {
+       padding: 0 1%;
+ }
+
+ .nav a:hover {
+      background-color:none
+ }
+
+ .main-header {
+    background-color: rgb(220, 220, 220);
+    background-image: url("Background img.jpg");
+    background-blend-mode: multiply;
+    /* backgroud-size: cover; */
+    padding-bottom: 30px;
+ }
+
+ .site-name {
+      text-align: center;
+      margin: 0;
+      font-size: 4em;
+      font-family: 'Black Ops One', sans-serif;
+      font-weight: normal;
+      color:rgb(255, 255, 255);
+      
+ }
+
+ .site-name-large {
+       font-size: 8em
+ }
+
+ .content-section {
+      margin: 1em;
+ }
+
+ .container {
+      max-width: 2000px;
+      margin:0 auto;
+      padding: 0 1.5em;
+ }
+ .section-header {
+     font-family: 'Anton', sans-serif;
+     font-weight: normal;
+     color:rgb(255, 255, 255);
+     text-align: center;
+     font-size: 2.5em;
+ }
+
+ .header-nav {
+    border-bottom: 2px solid antiquewhite;
+}
+    #IBO{
+      font-size: 70px;
+        margin-left: 750px;
+        color: brown;
+    }
+    #img1{
+        margin-left: 1000px;
+    }
+    #img2{
+        margin-left: 1000px;
+    }
+    #p1{
+margin-left: 100px;
+font-size: 20px;
+margin-top: 100px;
+    }
+    #price{
+        font-size: 50px;
+    }
+    #p2{
+        margin-left: 100px;
+font-size: 20px;
+margin-top: 100px;
+    }
+    #price2{
+        font-size: 50px;
+    }
+#img3{
+    margin-left: 1000px;
+}
+#p3{
+    margin-left: 100px;
+font-size: 20px;
+margin-top: 100px;
+}
+#price3{
+    font-size: 50px;
+}

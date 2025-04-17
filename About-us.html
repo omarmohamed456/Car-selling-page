@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&family
+        =Kanit:ital,wght@0,300;1,300&family=Roboto:wght@400;700&family=Satisfy&display=swap" rel="stylesheet">
+        
+        <title> About-us</title>
+        <style>
+            p{
+                font-family: Inconsolata, Arial;
+                position: relative;
+                font-size: 15px;
+                color: white;
+            }   
+
+            .id p {
+                font-family: Inconsolata, Arial;
+                position: relative;
+                font-size: 20px;
+                color: white;
+            }
+
+            
+            /*video*/
+
+            .background-video-container {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                
+
+
+            }
+
+            .background-video{
+                width: 100%; 
+                height: 100%; 
+                object-fit: cover;
+                
+
+            }
+
+
+
+            /*head*/
+
+            .header{
+            height: 60px;
+            width: 100%;
+            top: 0;
+            opacity: 0.9;
+            background-color: black;
+            display: flex;
+            position: fixed;
+            flex-direction: row;
+            justify-content:center;
+            align-items: center;
+            cursor: pointer;
+            }
+
+            /*side-bar*/
+            .side-bar{
+            height: 800px;
+            width: 15%;
+            left: 0;
+            top: 61px;
+
+            display: flex;
+            position: fixed;
+            flex-direction: column;
+            align-items: left;
+
+            color :white;
+            background-color: black;
+            opacity: 0.8;
+            }
+            .links{
+            text-decoration: none; 
+            color :white;
+        }
+
+
+            /*ID*/
+            .id{
+                border: 5px solid lightgray;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                width: 200px;
+                height: 250px;
+                color: aliceblue;
+                font-size: 15px;
+
+
+
+            }
+            .id-board0{
+                width: 1000px;
+                height: 600px;
+                top: 150px;
+                right: 30px;
+                position: absolute;
+            }
+            .id-board{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                
+                
+            }
+        
+            .id-board2{
+                display: flex;
+                align-items: center;
+                position: relative;
+            }
+            .img-id{
+                margin-bottom: 0;
+                padding-bottom: 0;
+                padding-top: 10px;
+                width: 150px;
+            }
+        </style>
+    </head>
+
+    <body style="overflow: hidden;">
+        
+        <!--video-->
+        <div class="background-video-container">
+            <video class="background-video" 
+            autoplay
+            loop
+            muted 
+            poster ="Background/Screenshot 2023-11-05 093629.png">
+            <source src="Background/videoplayback - Trim.webm" >
+            </video>
+        </div>
+
+
+        <!--head-->
+        <div class="header">
+
+            <div style="
+            margin-right: 20px;
+            font-family: Inconsolata, Arial;
+            font-weight: 500;
+            font-size: 20px;
+            position: absolute;
+            right: 10px;
+            ">
+                <a href="Home page.html" style="text-decoration: none; color :white;">IBO CARS</a>
+            </div>
+
+            <div>
+                <input type="text" placeholder="Search" 
+                style="
+                    border-radius: 30px;
+                    border: 0px;
+                    width: 450px;
+                    height: 25px;
+                    position: fixed;
+                    right:500px;
+                    top: 14px;
+                    " 
+                    class="search-bar">     
+            </div>
+
+
+        </div>
+
+        <!--side-bar-->
+        <div class="side-bar"> 
+            <div>   
+                <img src="hamburger-menu.svg" width="30" height="30">
+            </div>  
+            <ul>
+                <li><a href="popular.html" class="links"> Popular</a></li> 
+                <li><a href="offers.html" class="links">Offers</a></li>
+                <li><a href="motorcycles.html" class="links">Motorcycles</a></li> 
+                <li> <a href="class.html" class="links">Classic</a></li>
+                <li><a href="exotic.html" class="links">Exotic</a></li>
+                <li><a href="service.html" class="links">Servies</a></li>
+                <li><a href="About-us.html" class="links">About Us</a></li>
+                <li><a href="bmw.html" class="links">BMW</a></li>
+                <li><a href="last.html" class="links">Last Piece</a></li>
+            </ul>
+        </div>
+        
+        <br>
+        <br>
+
+
+        <p style="
+        display: flex;
+        position: fixed;
+        margin-left: 230px;
+        font-size: 20px;
+        ">
+         We are an international Egyptian Company that specialise in cars. We have roots all over the world. Also, Our store has special sections for classic and exotic cars.
+         It takes us 2-14 at most days to ship your car. Feel free to chick all of our sections we are sure that we have what you are 
+         looking for.</p>
+        <hr>
+        <p style="
+        display: inline;
+        position: absolute;
+
+        left: 250px;
+        top: 85px;
+        color: aliceblue;
+
+        font-size: 40px;
+        font-family: Satisfy, Arial;
+        font-weight: 800;
+        
+        
+        "> Our team: </p>
+        <div class="id-board0">
+            <div class="id-board">
+            
+                <div class="id">
+                <img class="img-id" src="idphoto/idphoto (1).jpg" width="150" height="200">
+                    Omar Mohamed Abdallah 
+                    <br>
+                    CEO
+                </div>
+
+                <div class="id">
+                    <img class="img-id" src="idphoto/idphoto (2).jpeg" width="150" height="200">
+                    Khaled Mohamed
+                    <br>
+                    Puolic Relations Manger
+                </div>
+
+                <div class="id">
+                    <img class="img-id" src="idphoto/idphoto (3).jpg" width="150" height="200">
+                    Momen Refat 
+                    <br>
+                    Servies Manger
+                </div>
+
+            </div>
+
+            <div class="id-board2">
+                <div class="id" 
+                    style="left: 650px;
+                    bottom: 20px;
+                    position: fixed;">
+                    <img class="img-id" src="idphoto/idphoto (4).jpg" width="150" height="200">
+                    Ibrahim Mohamed
+                    <br>
+                    Team Leader
+                </div>
+
+                <div class="id" 
+                    style="right: 230px;
+                    bottom: 20px;
+                    position: fixed;">
+                    <img class="img-id" src="moon.jpg" width="150" height="200" alt="NO IMAGE AVAILABLE">
+                    Abdelrahman Mohamed
+                    <br>
+                    Financial Aid Manger
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

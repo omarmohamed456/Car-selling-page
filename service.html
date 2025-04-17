@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> Servies</title>
+
+            <!--font-->
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&family=Kanit:ital,wght@0,300;1,300&family=Roboto:wght@400;700&family=Satisfy&display=swap" rel="stylesheet">
+        
+
+        <style> 
+        p, a{
+            font-family: Satisfy, Arial;
+            color: azure;
+        }
+        div{
+            font-family: Inconsolata, Arial;
+        }
+
+
+        /*header*/
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Oswald', sans-serif;
+            color: rgb(255, 255, 255);
+        }
+
+        body  {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(0, 0, 0);
+        }
+        
+        .nav ul {
+            margin: 0;
+            
+        }
+
+        .nav li {
+            display: inline;
+        }
+
+        .nav a {
+            display: inline-block;
+            padding: .1em;
+            text-decoration: none;
+            color: rgb(255, 255, 255);  
+        }
+
+
+        .main-nav {
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: lighter;
+            border-bottom: 2px solid rgb(255, 255, 255)
+        }
+
+        .main-nav li {
+            padding: 0 1%;
+        }
+
+        .nav a:hover {
+            background-color: rgba(255, 255, 255, .3)
+        }
+
+        .main-header {
+            background-color: rgb(220, 220, 220  );
+            background-image: url("Background img.jpg");
+
+            background-size: cover;
+            padding-bottom: 30px;
+        }
+
+        .site-name {
+            text-align: center;
+            margin: 0;
+            font-size: 4em;
+            font-family: 'Black Ops One', sans-serif;
+            font-weight: normal;
+            color:rgb(255, 255, 255);
+            
+        }
+
+        .site-name-large {
+            font-size: 8em;
+
+        }
+
+        .content-section {
+            margin: 1em;
+        }
+
+        .container {
+            max-width: 2000px;
+            margin:0 auto;
+            padding: 0 1.5em;
+        }
+        .section-header {
+            font-family: 'Anton', sans-serif;
+            font-weight: normal;
+            color:rgb(255, 255, 255);
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        .header-nav {
+            border-bottom: 2px solid antiquewhite;
+        }
+
+        /*MAIN*/
+        .content-container{
+            width: 400px;
+            height: 350px;
+            border: 1px solid white;
+            border-radius: 15px;
+            position: relative;
+            display: flex;
+            margin: 20px;
+            margin-left: 35px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            
+        }
+
+        .img{
+            width: 380px;
+            height: 220px;
+            position: absolute;
+            margin: 7px;
+
+        }
+
+
+        @keyframes mymove {
+                0%   {transform: matrix(1);}
+                100% {transform: matrix(1, 0, 0.3, 1, 0, 0);}
+            }
+
+
+        
+        .img:hover{
+            animation: mymove 3s ;
+            animation-fill-mode: forwards; 
+
+        }
+
+        .detailes{
+            width: 350px;
+            height: 80px;
+            bottom: 0px;
+            margin: 7px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+
+        }
+
+        .servies{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Satisfy, Arial;
+
+        }
+        .description{
+            color: gray;
+            font-size: 15px;
+        }
+
+        .cost{
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+
+        }
+
+
+
+
+        .links{
+            text-decoration: none; 
+            color :white;
+        }
+
+
+        .main-footer {
+            background-color: #28282B;
+            color: rgb(0, 0, 0);
+            padding: .25em 0;
+        }
+
+        .main-footer-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .main-footer-container ul {
+            flex-grow: 1;
+            text-align: end;
+        }
+
+        .footer-nav li {
+            padding: 0 .5em;
+        }
+
+        .footer-nav img {
+            width: 50px;
+            height: 50px;
+        }
+                
+                </style>
+            </head>
+
+
+    <body>
+        <!--head-->
+        <header class="main-header">
+            <nav class="nav main-nav">
+                <ul>
+                   <li><a href="Home page.html">HOME</a></li>
+                   <li><a href="class.html">CLASSIC CARS</a></li>
+                   <li><a href="exotic.html">EXOTIC CARS</a></li>
+                   <li><a href="popular.html">POPULAR</a></li>
+                   <li><a href="last.html">LAST PIECE</a></li>
+                   <li><a href="bmw.html">BMW</a></li>
+                   <li><a href="motorcycles.html">MOTORCYCLES</a></li>
+                   <li><a href="offers.html">OFFERS</a></li>
+                   <li><a href="About-us.html">ABOUT US</a></li>
+                   <li><a href="service.html">SERVICE</a></li>
+            </nav>
+            <h1 class="site-name site-name-large" style="font-family: 'Black Ops One', sans-serif;" >IBO Cars</h1>
+        </header>
+    
+
+
+
+
+        </div>
+
+ 
+
+        
+        <!--content container-->
+        <div style="
+        top: 400;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start; 
+        ">
+             
+            
+            <!---->
+            <div class="content-container" >
+
+                <img class="img" src="Servies/carwash.jpg" >
+
+                <div class="detailes">
+                    <div class="servies"> Car Washing </div>
+                    <div class="description"> Super car washing with clean water and soap.</div>
+                    <div class="cost"> 50$ </div>
+                </div>
+            </div>
+            <!---->
+            <div class="content-container" >
+
+                <img class="img" src="Servies/repair.jpg" >
+
+                <div class="detailes">
+                    <div class="servies">Saftey Check</div>
+                    <div class="description">profisional mechanic check your car for any thing wrong (includes Tyre checking).</div>
+                    <div class="cost">10$</div>
+                </div>
+            </div>
+            <!---->
+            <div class="content-container" >
+
+                <img class="img" src="Servies/tyre.webp" >
+
+                <div class="detailes">
+                    <div class="servies">Tyre Check</div>
+                    <div class="description">It's better to check your tyres before traviling on the highway.</div>
+                    <div class="cost">0.5$</div>
+                </div>
+            </div>
+            <!---->
+            <div class="content-container" >
+
+                <img class="img" src="Servies/paint2.jpg" >
+
+                <div class="detailes">
+                    <div class="servies">Car Repaint</div>
+                    <div class="description">Changing your cars paint color will make it look new.</div>
+                    <div class="cost">100$</div>
+                </div>
+            </div>
+            <!---->
+            <div class="content-container" >
+
+                <img class="img" src="Servies/bumblebee3.jpg" >
+
+                <div class="detailes">
+                    <div class="servies">Turning your Car into a Robot</div>
+                    <div class="description">We believe that having a car that can turn into a giant ropot is a great experience.</div>
+                    <div class="cost">FREE</div>
+                </div>
+            </div>
+
+        </div>
+        
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="site-name">IBO Cars</h3>
+                <ul class="nav footer-nav">  
+                  <li style="position: relative; top: -18px ;"><a href="About-us.html" >About Us</a></li>
+
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=9dLTHhKgW3I&pp=ygUl2LnYp9iv2YQg2LTZg9mEICDYs9mE2KfZhdmI2LnZhNmK2YPZiA%3D%3D" target="_blank"> 
+                         <img src="youtube logo.png">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                         <img src="facebook logo.jpg">
+                    </a>
+                  </li>
+                </ul>
+            </div>    
+          </footer>
+
+    </body>
+</html>
